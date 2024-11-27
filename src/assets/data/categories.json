@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Furniture",
+        "_id":"001",
+        "subcategories":[
+            {
+                "name":"Table",
+                "_id":"f01"
+            },
+            {
+                "name":"Chair",
+                "_id":"f02"
+            }
+        ]
+    },
+    {
+        "name":"Electronics",
+        "_id":"002",
+        "subcategories":[
+            {
+                "name":"Mobile",
+                "_id":"e01"
+            },
+            {
+                "name":"Air Conditioner",
+                "_id":"e02"
+            }
+        ]
+    }
+]
