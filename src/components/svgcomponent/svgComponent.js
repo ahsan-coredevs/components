@@ -1,7 +1,21 @@
 import DownArrow from '../../assets/icon/DownArrow.svg?react'
 import RightArrow from '../../assets/icon/RightArrow.svg?react'
+import WaterMark from '../../assets/icon/watermark.svg?react'
+import Course from '../../assets/icon/course.svg?react'
+import Professor from '../../assets/icon/professor.svg?react'
+import Blog from '../../assets/icon/news.svg?react'
+import Teacher from '../../assets/icon/teacher.svg?react'
+import User from '../../assets/icon/user-plus.svg?react'
+import Order from '../../assets/icon/cart-check.svg?react'
 
 export {
     RightArrow,
-    DownArrow
+    DownArrow,
+    WaterMark,
+    Course,
+    Professor,
+    Blog,
+    Teacher,
+    User,
+    Order
 }

@@ -1,0 +1,33 @@
+[
+    {
+      "_id": "00",
+      "name": "Courses",
+      "value": 231,
+      "bg": "#ca2842"
+    },
+    {
+      "_id": "01",
+      "name": "Blogs",
+      "value": 92,
+      "bg": "#4EDFC2"
+    },
+    {
+      "_id": "02",
+      "name": "Instructors",
+      "value": 33,
+      "bg": "#CE513D"
+    },
+    {
+      "_id": "03",
+      "name": "Users",
+      "value": 2321,
+      "bg": "#C00070"
+    },
+    {
+      "_id": "04",
+      "name": "Orders",
+      "value": 3211,
+      "bg": "#32AB54"
+    }
+  ]
+  
