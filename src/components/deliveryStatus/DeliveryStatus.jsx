@@ -15,7 +15,7 @@ function DeliveryStatus() {
     { _id: "04", title: "Forwarded for delivery" },
     { _id: "05", title: "Product Reached at ABC e-commerce" },
     { _id: "06", title: "Handed Over to Delivery man" },
-    { _id: "07", title: "Delivery Completed" },
+    { _id: "07", title: "Deliver" },
   ];
 
   const [statusCompleted, setStatusCompleted] = useState([]);
@@ -27,7 +27,7 @@ function DeliveryStatus() {
     if (selectedStatusObj) {
       const currentDate = new Date().toLocaleString();
       const isAlreadyCompleted = statusCompleted.some((status) => status._id === selectedStatusObj._id);
-      
+
       if (isAlreadyCompleted) {
         setStatusCompleted((prev) =>
           prev.filter((status) => status._id !== selectedStatusObj._id)
@@ -63,7 +63,7 @@ function DeliveryStatus() {
       </div>
       <div className="mt-8 w-full h-auto bg-slate-100">
         <VerticalTimeline>
-          {statusCompleted.sort((a, b) => a._id.localeCompare(b._id)).map((status) => (
+          {statusCompleted.sort((a, b) => a._id.localeCompare(b._id)).toReversed().map((status) => (
             <VerticalTimelineElement
               key={status._id}
               date={status.dateTime}
