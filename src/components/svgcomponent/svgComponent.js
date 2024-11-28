@@ -7,6 +7,8 @@ import Blog from '../../assets/icon/news.svg?react'
 import Teacher from '../../assets/icon/teacher.svg?react'
 import User from '../../assets/icon/user-plus.svg?react'
 import Order from '../../assets/icon/cart-check.svg?react'
+import Check from '../../assets/icon/check.svg?react'
+import Uncheck from '../../assets/icon/uncheck.svg?react'
 
 export {
     RightArrow,
@@ -17,5 +19,7 @@ export {
     Blog,
     Teacher,
     User,
-    Order
+    Order,
+    Check,
+    Uncheck
 }

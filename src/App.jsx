@@ -9,6 +9,7 @@ import {
   Teacher,
   User,
 } from "./components/svgcomponent/svgComponent";
+import DeliveryStatus from "./components/deliveryStatus/DeliveryStatus";
 
 function App() {
   const icon = [ Course, Blog, Teacher, User, Order];
@@ -34,6 +35,7 @@ function App() {
             />
           ))}
         </div>
+        <DeliveryStatus />
       </div>
     </>
   );
