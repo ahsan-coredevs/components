@@ -15,7 +15,7 @@ function DeliveryStatus() {
     { _id: "04", title: "Forwarded for delivery" },
     { _id: "05", title: "Product Reached at ABC e-commerce" },
     { _id: "06", title: "Handed Over to Delivery man" },
-    { _id: "07", title: "Deliver" },
+    { _id: "07", title: "Delivered" },
   ];
 
   const [statusCompleted, setStatusCompleted] = useState([]);

@@ -10,6 +10,12 @@ import {
   User,
 } from "./components/svgcomponent/svgComponent";
 import DeliveryStatus from "./components/deliveryStatus/DeliveryStatus";
+import Review from "./components/review/Review";
+import Timer from "./components/useRef/Timer";
+import PreviousValue from "./components/useRef/PreviousValue";
+import Toggle from "./components/useRef/Toggle";
+import LifecycleComponent from "./components/useRef/LifecycleComponent";
+import AnimationComponent from "./components/useRef/AnimationComponent.jsx";
 
 function App() {
   const icon = [ Course, Blog, Teacher, User, Order];
@@ -36,6 +42,13 @@ function App() {
           ))}
         </div>
         <DeliveryStatus />
+       <Review />
+       <Timer />
+
+       <PreviousValue/>
+       <Toggle />
+       <LifecycleComponent />
+       <AnimationComponent />
       </div>
     </>
   );

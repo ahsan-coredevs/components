@@ -9,6 +9,7 @@ import User from '../../assets/icon/user-plus.svg?react'
 import Order from '../../assets/icon/cart-check.svg?react'
 import Check from '../../assets/icon/check.svg?react'
 import Uncheck from '../../assets/icon/uncheck.svg?react'
+import Person from '../../assets/icon/person.svg?react'
 
 export {
     RightArrow,
@@ -21,5 +22,6 @@ export {
     User,
     Order,
     Check,
-    Uncheck
+    Uncheck,
+    Person
 }
