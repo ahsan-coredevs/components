@@ -11,14 +11,14 @@ import {
 } from "./components/svgcomponent/svgComponent";
 import DeliveryStatus from "./components/deliveryStatus/DeliveryStatus";
 import Review from "./components/review/Review";
-import Timer from "./components/useRef/Timer";
-import PreviousValue from "./components/useRef/PreviousValue";
-import Toggle from "./components/useRef/Toggle";
-import LifecycleComponent from "./components/useRef/LifecycleComponent";
-import AnimationComponent from "./components/useRef/AnimationComponent.jsx";
+import Animation from "./components/animation/Animation.jsx";
+import InstagramFeed from "./components/Instagram/InstagramPhoto.jsx";
 
 function App() {
   const icon = [ Course, Blog, Teacher, User, Order];
+
+  const instaID1 = '549250144582399';
+  const accessToken1 = 'def4210fbcd6dd2b163242befa92f5d8'; 
   return (
     <>
       <div className="h-screen w-full bg-slate-100 p-10">
@@ -43,12 +43,9 @@ function App() {
         </div>
         <DeliveryStatus />
        <Review />
-       <Timer />
+       <Animation />
 
-       <PreviousValue/>
-       <Toggle />
-       <LifecycleComponent />
-       <AnimationComponent />
+       <InstagramFeed instaID={instaID1} accessToken={accessToken1} />
       </div>
     </>
   );

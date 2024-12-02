@@ -24,8 +24,6 @@ const Timer = () => {
     setControlTime((prev) => !prev); 
   };
 
-  
-
   return (
     <div className="w-full mt-10">
       <p className="mb-4">Time: {time} seconds</p>

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animated-box {
+    
+   
+    opacity: 0; /* Initial opacity */
+    animation: fadeIn 3s forwards; /* Apply animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1; /* Start with opacity 0 */
+    }
+    50% {
+        opacity: 0.5; /* Midway opacity 50% */
+    }
+    100% {
+        opacity: 0; /* End with opacity 100% */
+    }
+}
